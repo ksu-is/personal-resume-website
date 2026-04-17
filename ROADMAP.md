@@ -1,1 +1,8 @@
-
+- [x] Create LICENSE, README, ROADMAP, and IDEAS files
+- [x] Start inputting possible repositories to use in IDEAS.md
+- [ ] choose which license to use
+- [ ] research and choose what free subdomain to use (PythonAnywhere?)
+- [ ] make website light/dark mode widget
+- [ ] create home, about, resume, and contact pages
+- [ ] create email widget
+- [ ] create LinkedIn widget
