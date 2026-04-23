@@ -3,9 +3,10 @@
 - [x] Using Git, create a submodule of a template repository
 - [x] choose which license to use
 - [x] choose a repository to use (4GeeksAcadmey)
+- [x] create LinkedIn clickable link
 - [ ] research and choose what free subdomain to use (PythonAnywhere?)
 - [ ] start creating code and run
 - [ ] make website light/dark mode widget
 - [ ] create home, about, resume, and contact pages
 - [ ] create email widget
-- [ ] create LinkedIn widget
+
