@@ -1,0 +1,128 @@
+/*Navigation pane formatting*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: 'Times New Roman', Times, serif; /* Use a web-safe font */  
+    line-height: 1.6; /* Improves readability */  
+    color: #333; /* Dark gray text (easier on eyes than black) */  
+    background-color: #f4f4f4; /* Light gray background */  
+}  
+
+a {  
+    text-decoration: none; /* Remove default underline from links */  
+    color: #333;  
+}  
+
+/* Container to center content (optional but common) */  
+.container {  
+    max-width: 1200px; /* Limits content width on large screens */  
+    margin: 0 auto; /* Centers content horizontally */  
+    padding: 0 20px; /* Adds space on left/right for small screens */  
+    overflow: hidden;
+}  
+
+/* Responsive Design: Mobile-first approach */  
+@media (max-width: 768px) {  
+    /* Styles for screens smaller than 768px (e.g., phones) */  
+    .logo h1 {  
+        font-size: 1.5rem; /* Smaller logo text on mobile */  
+    }  
+}  
+
+/* Responsive Navigation (Mobile) */  
+@media (max-width: 768px) {  
+    nav ul {  
+        flex-direction: column; /* Stack links vertically on mobile */  
+        gap: 1rem;  
+        text-align: center;  
+    }  
+}  
+
+header {
+    background-color: #2f6e81;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#logo {
+    float: left;
+    font-size: 1.5em;
+}
+
+nav {
+    float: right;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {  
+    color: #e8491d; /* Orange color on hover */  
+}  
+
+.nav-links li a.active {
+  background-color: #396b7e;
+  color: #060606;
+  border-radius: 4px;
+}
+
+.content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/*Header image formatting*/
+#header-image-menu {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 320px;      /* visible height: change as desired (e.g., 220px or 300px) */
+  overflow: hidden;
+}
+
+#header-image-menu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 38%; /* move image up */
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* text overlay on image */
+#image-text {
+  position: absolute;
+  top: 32%;
+  left: 79%;
+  transform: translate(-30%, -30%);
+  font-family: "Segoe Script", "Lucida Handwriting", "Apple Chancery", cursive;
+  color: #000;            /* change to white if needed for contrast */
+  text-align: center;
+  margin: 0;
+  padding: 0 1rem;        /* small horizontal padding so text doesn't touch edges */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4); /* optional for legibility */
+}
+
+
