@@ -11,4 +11,5 @@
 - [ ] research and choose what free subdomain to use (PythonAnywhere?)
 - [ ] make website light/dark mode widget
 - [ ] create email widget
+- [ ] create logo
 
