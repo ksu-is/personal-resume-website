@@ -4,6 +4,8 @@
 - [x] choose which license to use
 - [x] choose a repository to use (4GeeksAcadmey)
 - [x] create LinkedIn clickable link
+- [x] add header image
+- [ ] format header image
 - [ ] research and choose what free subdomain to use (PythonAnywhere?)
 - [ ] start creating code and run
 - [ ] make website light/dark mode widget
