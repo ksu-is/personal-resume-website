@@ -2,9 +2,16 @@
 - [x] Start inputting possible repositories to use in IDEAS.md
 - [x] Using Git, create a submodule of a template repository
 - [x] choose which license to use
+- [x] choose a repository to use (4GeeksAcadmey)
+- [x] start creating code and run website on local server
+- [x] create LinkedIn clickable link
+- [x] add header image
+- [x] create home, about, resume, and contact pages
+- [x] format header image - needs fill page width, but shrink height
+- [x] link pages to home and adjust formatting
+- [x] remove unused submodule
 - [ ] research and choose what free subdomain to use (PythonAnywhere?)
-- [ ] start creating code and run
 - [ ] make website light/dark mode widget
-- [ ] create home, about, resume, and contact pages
 - [ ] create email widget
-- [ ] create LinkedIn widget
+- [ ] create logo
+
