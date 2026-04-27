@@ -10,8 +10,10 @@
 - [x] format header image - needs fill page width, but shrink height
 - [x] link pages to home and adjust formatting
 - [x] remove unused submodule
+- [ ] add header to other pages
 - [ ] research and choose what free subdomain to use (PythonAnywhere?)
+- [ ] host website on subdomain
 - [ ] make website light/dark mode widget
 - [ ] create email widget
-- [ ] create logo
+- [ ] create logo for tab
 
