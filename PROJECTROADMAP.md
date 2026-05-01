@@ -11,9 +11,9 @@
 - [x] link pages to home and adjust formatting
 - [x] remove unused submodule
 - [x] add header to other pages
-- [ ] create and upload PPT Splash Screen
-- [ ] research and choose what free subdomain to use (PythonAnywhere?)
-- [ ] host website on subdomain
+- [x] create and upload PPT Splash Screen
+- [x] research and choose what free subdomain to use (PythonAnywhere?)
+- [x] host website on subdomain - PythonAnywhere
 - [ ] make website light/dark mode widget
 - [ ] create email widget
 - [ ] create logo for tab
