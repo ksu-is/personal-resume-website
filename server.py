@@ -15,11 +15,6 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0 #disable cache
 # Serving the index file
 @app.route('/', methods=['GET'])
 def serve_dir_directory_index():
-   # if os.path.exists("app.py"):
-        # if app.py exists we use the render function
-    #    out = subprocess.Popen(['python3','app.py'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-     #   stdout,stderr = out.communicate()
-      #  return stdout if out.returncode == 0 else f"<pre style='color: red;'>{stdout.decode('utf-8')}</pre>"
     if os.path.exists("index.html"):
         return send_from_directory(static_file_dir, 'index.html')
     else:
@@ -34,4 +29,6 @@ def serve_any_other_file(path):
     response.cache_control.max_age = 0 # avoid cache memory
     return response
 
-# app.run(host='0.0.0.0',port=3000, debug=True, extra_files=['./',])
+# after each edit, go to PythonAnywhere, bash, and type: 
+# cd ~/personal-resume-websitete
+# git pull
