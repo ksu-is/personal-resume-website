@@ -19,11 +19,11 @@ a {
     color: #333;  
 }  
 
-/* Container to center content (optional but common) */  
+/* Container to center content */  
 .container {  
     max-width: 1200px; /* Limits content width on large screens */  
     margin: 0 auto; /* Centers content horizontally */  
-    padding: 0 20px; /* Adds space on left/right for small screens */  
+    padding: 20px; /* Adds space on left/right for small screens */  
     overflow: hidden;
 }  
 
@@ -53,10 +53,24 @@ header {
 }
 
 #logo {
+    /* text adjustments */
     float: left;
     font-size: 2em;
-    font-family: "Georgia", "Times New Roman", Times, serif
+    font-family: "Georgia", "Times New Roman", Times, serif;
     text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+
+    /* alignment */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: -20px;
+}
+
+.logo-img {
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 5px;  /* moves image down slightly */
 }
 
 nav {
