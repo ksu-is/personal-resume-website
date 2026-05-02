@@ -14,10 +14,12 @@
 - [x] create and upload PPT Splash Screen
 - [x] research and choose what free subdomain to use (PythonAnywhere?)
 - [x] host website on subdomain - PythonAnywhere
+- [x] create static folder and upload files, replacing links in webpages
+- [x] add logo to website header
+- [x] create logo for tab
+- [x] add resume to resume subpage
 - [ ] make website light/dark mode widget
 - [ ] create email widget
-- [ ] create logo for tab
-- [ ] add resume to resume subpage
 - [ ] format contact subpage
 - [ ] format about subpage
 
