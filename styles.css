@@ -14,11 +14,6 @@ body {
     background-color: #f4f4f4; 
 }  
 
-a {  
-    text-decoration: none; /* Remove default underline from links */  
-    color: #333;  
-}  
-
 /* Container to center content */  
 .container {  
     max-width: 1200px; /* Limits content width on large screens */  
