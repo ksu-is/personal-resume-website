@@ -8,7 +8,7 @@
 body {  
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.6; /* Improves readability */  
     color: #333; 
     background-color: #f4f4f4; 
@@ -143,7 +143,7 @@ nav a:hover {
   left: 79%;
   transform: translate(-30%, -30%);
   font-family: "Lucida Handwriting", "Segoe Script", cursive;
-  color: #333;            /* change to white if needed for contrast */
+  color: #72a0c1;            /* change to white if needed for contrast */
   text-align: center;
   margin: 0;
   padding: 0 1rem;        /* small horizontal padding so text doesn't touch edges */
